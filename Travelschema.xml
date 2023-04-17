@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <xs:element name="travelInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="email" type="xs:string"/>
+        <xs:element name="phone" type="xs:string"/>
+        <xs:element name="passportNumber" type="xs:string"/>
+        <xs:element name="fromLocation" type="xs:string"/>
+        <xs:element name="destinationLocation" type="xs:string"/>
+        <xs:element name="accountNumber" type="xs:string"/>
+        <xs:element name="additionalTravelRequirements" type="xs:string" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
